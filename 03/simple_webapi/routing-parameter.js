@@ -39,8 +39,6 @@ app.get('/api/:major',(req,res,next)=>{
     res.send(req,myobj);
 });
 
-
-
 app.listen(port,'127.0.0.1',()=>{
     console.log(`listening on port ${port}`);
 
