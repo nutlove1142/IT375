@@ -36,7 +36,7 @@ app.get('/api/:major',(req,res,next)=>{
     }
 },(req,res)=>{
     req.myobj += 'end of data';
-    res.send(req,myobj);
+    res.send(req.myobj);
 });
 
 app.listen(port,'127.0.0.1',()=>{
